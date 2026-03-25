@@ -1,2 +1,29 @@
+#忽略obsidian缓存和临时文件
+.obsidian/cache/
 .obsidian/workspace.json
+.obsidian/workspace/
+.obsidian/trash/
+
+#忽略插件生成的缓存数据（如git的历史记录）
+.obsidian/plugins/obsidian-git/data.json
+
+#忽略系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#忽略备份文件
+*.bak
+*.tmp
+
+#特殊配置：保留核心插件配置（可选）
+!.obsidian/plugins/ #保留插件文件夹，但忽略其中的缓存数据
+!.obsidian/themes/ #保留主题文件夹，但忽略其中的缓存数据
+
+
+#ignore smart Environment folder
+.smart-env
+
+.obsidian/plugins/recent-files-obsidian/data.json
 .obsidian/workspace-mobile.json
+.trash/
